@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(15, 16, 16);
+}
+.container {
+    width: 350vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-color: #0b0b0b;
+    border-radius: .4rem;
+    padding-bottom: 3rem;
+}
+
+video {
+    width: 33vw;
+    height: 40vh;
+}
+
+.container p {
+    padding-top: 1rem;
+    width: 30vw;
+    padding-bottom: 1rem;
+}
+
+.inactive {
+    border: none;
+    border-radius: 1rem;
+    padding: .4rem 1rem;
+    font-size: 1rem;
+    color: #838383;
+    background-color: #fff;
+}
+
+.inactive a {
+    text-decoration: none;
+    color: #4f00d3;
+}
+
+.active {
+    color: #4f00d3 !important;
+}
